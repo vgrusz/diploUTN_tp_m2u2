@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Almacén Don Manolo</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="jscode.js"></script>
+  </head>
+
+  <body onLoad="listContainerLoad()">
+    <header class="headerClass">
+      <h1>Almacén Don Manolo</h1>
+      <img src="Almacendonmanolo.png" alt="" />
+    </header>
+
+    <main class="listContainer">
+      <div id="list" class="hiddenItem"><h2>Lista de productos</h2></div>
+      <div id="shopCart" class="list"><h2>Carrito</h2></div>
+    </main>
+
+    <div class="footerClass">
+      <button
+        onClick="{innerHTML='TOTAL $ '+total +' (presióname de nuevo para recalcular)'}"
+        )
+      >
+        <!-- scrip JS tan breve que no vale la pena ponerlo aparte... -->
+        Calcular total
+      </button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+h2 {
+  border: 1px solid indianred;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  background-color: tomato;
+}
+.imagedButton {
+  display: flex;
+  align-items: center;
+}
+
+.imageInButton {
+  height: 1.5em;
+  width: 1.5em;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid indianred;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: indianred;
+  opacity: 0.85;
+}
+
+.hiddenItem {
+  display: none;
+}
+
+.list {
+  border: 1px solid indianred;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  width: 49%;
+}
+.listContainer {
+  display: flex;
+  background-color: palegoldenrod;
+  border: 10px solid indianred;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.headerClass {
+  text-align: center;
+  border: 1px solid indianred;
+  background-color: lightsalmon;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.footerClass {
+  text-align: center;
+  border: 1px solid indianred;
+  background-color: lightsalmon;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+}
+#shopCart {
+  background-image: url(carrito-de-compras-claro.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
